@@ -49,6 +49,8 @@ export default function SearchForm() {
         values
       )} \n\n redirecting you now to airbnb to double check available places to book!`
     );
+
+    window.open("https://www.airbnb.com/", "_blank");
   }
 
   return (
